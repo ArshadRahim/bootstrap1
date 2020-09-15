@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 1em;
+    height: 90vh;
+    border: white solid 1px;
+}
+.col{
+    background-color: aquamarine;
+    color: teal;
+    height: 6rem;
+    margin: 3px;
+}
+.col:nth-child(3n-1){
+    background-color: thistle;
+}
+.col:nth-child(2n-1){
+    background-color: rgb(134, 27, 134);
+}
+.col1:nth-child(1){
+    background-color: rgb(230, 199, 230);
+}
+.container h1{
+    color: tomato;
+    font: 3rem;
+    font-family: 'Ranchers', cursive;
+    text-decoration: underline;
+
+}
+.all{
+    color: tomato;
+    font: 3rem;
+    font-family: 'Ranchers', cursive;
+    text-decoration: underline;
+    position: absolute;
+    right: 2.9em;
+    bottom: 3em;
+
+}
+
+
